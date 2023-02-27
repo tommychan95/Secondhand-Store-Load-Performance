@@ -1,0 +1,181 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1670231332857,675,POST Register Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-1,text,true,,597,601,1,1,http://market-final-project.herokuapp.com/auth/register,675,0,314
+1670231333534,343,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-1,text,true,,525,451,1,1,http://market-final-project.herokuapp.com/auth/login,343,0,0
+1670231335857,598,POST Register Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-2,text,true,,597,601,2,2,http://market-final-project.herokuapp.com/auth/register,598,0,254
+1670231333878,2698,POST Fetch Products (seller-product),201,Created,5 Users - 15 Second - 1 Loop 1-1,text,true,,706,368402,2,2,https://market-final-project.herokuapp.com/seller/product,2698,0,787
+1670231336456,338,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-2,text,true,,525,451,2,2,http://market-final-project.herokuapp.com/auth/login,338,0,0
+1670231336576,282,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,2320,354,2,2,http://market-final-project.herokuapp.com/seller/product,282,0,0
+1670231336859,277,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,277,0,0
+1670231337136,264,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-1,text,false,,395,422,2,2,http://market-final-project.herokuapp.com/seller/product,264,0,0
+1670231337400,302,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,5012,417,2,2,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,296,0,0
+1670231337703,270,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,1031,357,2,2,http://market-final-project.herokuapp.com/buyer/product/341,270,0,0
+1670231337974,287,POST Create Order (buyer-order),201,Created,5 Users - 15 Second - 1 Loop 1-1,text,true,,675,424,2,2,http://market-final-project.herokuapp.com/buyer/order,287,0,0
+1670231338261,884,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,71921,351,3,3,http://market-final-project.herokuapp.com/buyer/order,302,0,0
+1670231339145,352,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,278,357,3,3,http://market-final-project.herokuapp.com/buyer/order/12095,352,0,0
+1670231338856,647,POST Register Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-3,text,true,,597,601,3,3,http://market-final-project.herokuapp.com/auth/register,647,0,293
+1670231336796,2725,POST Fetch Products (seller-product),201,Created,5 Users - 15 Second - 1 Loop 1-2,text,true,,706,368402,3,3,https://market-final-project.herokuapp.com/seller/product,2725,0,780
+1670231339497,288,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-1,text,false,,335,402,3,3,http://market-final-project.herokuapp.com/buyer/order/12097,287,0,0
+1670231339522,274,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,272,0,0
+1670231339503,344,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-3,text,true,,525,451,2,2,http://market-final-project.herokuapp.com/auth/login,344,0,0
+1670231339797,273,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,273,0,0
+1670231340071,262,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-2,text,false,,396,423,2,2,http://market-final-project.herokuapp.com/seller/product,261,0,0
+1670231340334,293,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,5012,417,2,2,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,291,0,0
+1670231340628,261,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,1031,357,2,2,http://market-final-project.herokuapp.com/buyer/product/341,261,0,0
+1670231340890,278,POST Create Order (buyer-order),201,Created,5 Users - 15 Second - 1 Loop 1-2,text,true,,675,424,2,2,http://market-final-project.herokuapp.com/buyer/order,278,0,0
+1670231341169,828,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,72836,351,3,3,http://market-final-project.herokuapp.com/buyer/order,279,0,0
+1670231341997,287,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,278,357,3,3,http://market-final-project.herokuapp.com/buyer/order/12095,287,0,0
+1670231341855,532,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-4,text,false,,1307,603,3,3,http://market-final-project.herokuapp.com/auth/register,532,0,256
+1670231342285,270,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-2,text,false,,335,402,3,3,http://market-final-project.herokuapp.com/buyer/order/12097,270,0,0
+1670231339849,2772,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-3,text,false,,334,368410,2,2,https://market-final-project.herokuapp.com/seller/product,2772,0,788
+1670231342388,343,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-4,text,true,,525,451,2,2,http://market-final-project.herokuapp.com/auth/login,343,0,0
+1670231342621,285,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,285,0,0
+1670231342907,279,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,279,0,0
+1670231343186,276,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-3,text,false,,388,415,2,2,http://market-final-project.herokuapp.com/seller/product,276,0,0
+1670231343463,338,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,5012,417,2,2,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,338,0,0
+1670231343802,270,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,1031,357,2,2,http://market-final-project.herokuapp.com/buyer/product/341,270,0,0
+1670231344073,289,POST Create Order (buyer-order),201,Created,5 Users - 15 Second - 1 Loop 1-3,text,true,,675,424,2,2,http://market-final-project.herokuapp.com/buyer/order,289,0,0
+1670231344363,817,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,73751,351,3,3,http://market-final-project.herokuapp.com/buyer/order,288,0,0
+1670231345182,271,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,278,357,3,3,http://market-final-project.herokuapp.com/buyer/order/12095,271,0,0
+1670231344856,619,POST Register Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-5,text,true,,597,601,3,3,http://market-final-project.herokuapp.com/auth/register,619,0,277
+1670231342732,2874,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-4,text,false,,334,368370,3,3,https://market-final-project.herokuapp.com/seller/product,2874,0,785
+1670231345454,276,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-3,text,false,,335,402,3,3,http://market-final-project.herokuapp.com/buyer/order/12097,276,0,0
+1670231345476,338,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-5,text,true,,525,451,2,2,http://market-final-project.herokuapp.com/auth/login,338,0,0
+1670231345607,279,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,279,0,0
+1670231345888,279,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,279,0,0
+1670231346168,261,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-4,text,false,,395,422,2,2,http://market-final-project.herokuapp.com/seller/product,261,0,0
+1670231346429,288,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,5012,417,2,2,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,288,0,0
+1670231346718,265,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,1031,357,2,2,http://market-final-project.herokuapp.com/buyer/product/341,265,0,0
+1670231346984,283,POST Create Order (buyer-order),201,Created,5 Users - 15 Second - 1 Loop 1-4,text,true,,675,424,2,2,http://market-final-project.herokuapp.com/buyer/order,283,0,0
+1670231347268,815,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,74666,351,2,2,http://market-final-project.herokuapp.com/buyer/order,278,0,0
+1670231348083,271,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,278,357,2,2,http://market-final-project.herokuapp.com/buyer/order/12095,270,0,0
+1670231345815,2651,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-5,text,false,,334,368402,2,2,https://market-final-project.herokuapp.com/seller/product,2651,0,772
+1670231348354,269,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-4,text,false,,335,402,2,2,http://market-final-project.herokuapp.com/buyer/order/12097,269,0,0
+1670231348467,275,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,2830,354,1,1,http://market-final-project.herokuapp.com/seller/product,275,0,0
+1670231348743,270,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,787,360,1,1,http://market-final-project.herokuapp.com/seller/product/28167,270,0,0
+1670231349014,265,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-5,text,false,,391,418,1,1,http://market-final-project.herokuapp.com/seller/product,265,0,0
+1670231349280,287,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,5012,417,1,1,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,287,0,0
+1670231349568,263,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,1031,357,1,1,http://market-final-project.herokuapp.com/buyer/product/341,263,0,0
+1670231349832,282,POST Create Order (buyer-order),201,Created,5 Users - 15 Second - 1 Loop 1-5,text,true,,675,424,1,1,http://market-final-project.herokuapp.com/buyer/order,282,0,0
+1670231350115,1062,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,75581,351,1,1,http://market-final-project.herokuapp.com/buyer/order,274,0,0
+1670231351178,270,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,278,357,1,1,http://market-final-project.herokuapp.com/buyer/order/12095,270,0,0
+1670231351449,271,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-5,text,false,,335,402,1,1,http://market-final-project.herokuapp.com/buyer/order/12097,271,0,0
+1670232174055,595,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-1,text,false,,344,601,1,1,http://market-final-project.herokuapp.com/auth/register,595,0,316
+1670232174659,332,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-1,text,true,,525,451,1,1,http://market-final-project.herokuapp.com/auth/login,332,0,0
+1670232176925,517,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-2,text,false,,344,601,2,2,http://market-final-project.herokuapp.com/auth/register,517,0,252
+1670232177443,333,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-2,text,true,,525,451,2,2,http://market-final-project.herokuapp.com/auth/login,333,0,0
+1670232174996,3612,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-1,text,false,,334,368410,2,2,https://market-final-project.herokuapp.com/seller/product,3612,0,1679
+1670232178609,280,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,279,0,0
+1670232178891,270,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,270,0,0
+1670232179164,256,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-1,text,false,,395,422,2,2,http://market-final-project.herokuapp.com/seller/product,256,0,0
+1670232179422,302,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,5012,417,2,2,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,302,0,0
+1670232179725,266,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,1031,357,3,3,http://market-final-project.herokuapp.com/buyer/product/341,266,0,0
+1670232179992,282,POST Create Order (buyer-order),400,Bad Request,5 Users - 15 Second - 1 Loop 1-1,text,false,,345,424,3,3,http://market-final-project.herokuapp.com/buyer/order,282,0,0
+1670232177778,2557,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-2,text,false,,334,368410,3,3,https://market-final-project.herokuapp.com/seller/product,2557,0,789
+1670232179927,527,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-3,text,false,,344,601,3,3,http://market-final-project.herokuapp.com/auth/register,527,0,251
+1670232180337,272,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,2830,354,3,3,http://market-final-project.herokuapp.com/seller/product,272,0,0
+1670232180455,331,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-3,text,true,,525,451,3,3,http://market-final-project.herokuapp.com/auth/login,331,0,0
+1670232180610,275,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,787,360,3,3,http://market-final-project.herokuapp.com/seller/product/28167,275,0,0
+1670232180886,256,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-2,text,false,,391,418,3,3,http://market-final-project.herokuapp.com/seller/product,256,0,0
+1670232181143,288,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,5012,417,3,3,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,288,0,0
+1670232181432,259,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,1031,357,3,3,http://market-final-project.herokuapp.com/buyer/product/341,259,0,0
+1670232180282,1544,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,75581,351,3,3,http://market-final-project.herokuapp.com/buyer/order,281,0,0
+1670232181692,278,POST Create Order (buyer-order),400,Bad Request,5 Users - 15 Second - 1 Loop 1-2,text,false,,345,424,3,3,http://market-final-project.herokuapp.com/buyer/order,277,0,0
+1670232181827,272,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,278,357,3,3,http://market-final-project.herokuapp.com/buyer/order/12095,271,0,0
+1670232182099,265,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-1,text,false,,335,402,3,3,http://market-final-project.herokuapp.com/buyer/order/12097,265,0,0
+1670232181970,801,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,75581,351,2,2,http://market-final-project.herokuapp.com/buyer/order,286,0,0
+1670232182772,269,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,278,357,3,3,http://market-final-project.herokuapp.com/buyer/order/12095,269,0,0
+1670232183042,269,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-2,text,false,,335,402,3,3,http://market-final-project.herokuapp.com/buyer/order/12097,269,0,0
+1670232182926,542,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-4,text,false,,1307,603,2,2,http://market-final-project.herokuapp.com/auth/register,542,0,261
+1670232180788,2807,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-3,text,false,,334,368330,2,2,https://market-final-project.herokuapp.com/seller/product,2807,0,773
+1670232183468,351,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-4,text,true,,525,451,2,2,http://market-final-project.herokuapp.com/auth/login,350,0,0
+1670232183596,285,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,285,0,0
+1670232183882,266,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,266,0,0
+1670232184149,257,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-3,text,false,,390,417,2,2,http://market-final-project.herokuapp.com/seller/product,257,0,0
+1670232184408,301,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,5012,417,2,2,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,301,0,0
+1670232184710,262,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,1031,357,2,2,http://market-final-project.herokuapp.com/buyer/product/341,262,0,0
+1670232184972,446,POST Create Order (buyer-order),400,Bad Request,5 Users - 15 Second - 1 Loop 1-3,text,false,,345,424,2,2,http://market-final-project.herokuapp.com/buyer/order,446,0,0
+1670232185927,515,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-5,text,false,,344,601,3,3,http://market-final-project.herokuapp.com/auth/register,515,0,250
+1670232185419,1107,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,75581,351,3,3,http://market-final-project.herokuapp.com/buyer/order,304,0,0
+1670232186443,333,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-5,text,true,,525,451,3,3,http://market-final-project.herokuapp.com/auth/login,333,0,0
+1670232186527,266,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,278,357,3,3,http://market-final-project.herokuapp.com/buyer/order/12095,266,0,0
+1670232183820,3149,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-4,text,false,,334,368362,3,3,https://market-final-project.herokuapp.com/seller/product,3149,0,799
+1670232186793,264,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-3,text,false,,335,402,3,3,http://market-final-project.herokuapp.com/buyer/order/12097,264,0,0
+1670232186970,281,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,281,0,0
+1670232187252,283,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,283,0,0
+1670232187540,276,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-4,text,false,,396,423,2,2,http://market-final-project.herokuapp.com/seller/product,276,0,0
+1670232187817,298,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,5012,417,2,2,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,298,0,0
+1670232188116,270,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,1031,357,2,2,http://market-final-project.herokuapp.com/buyer/product/341,270,0,0
+1670232188386,282,POST Create Order (buyer-order),400,Bad Request,5 Users - 15 Second - 1 Loop 1-4,text,false,,345,424,2,2,http://market-final-project.herokuapp.com/buyer/order,282,0,0
+1670232186778,2667,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-5,text,false,,334,368362,2,2,https://market-final-project.herokuapp.com/seller/product,2667,0,771
+1670232188669,897,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,75581,351,2,2,http://market-final-project.herokuapp.com/buyer/order,292,0,0
+1670232189446,273,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,273,0,0
+1670232189567,273,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,278,357,2,2,http://market-final-project.herokuapp.com/buyer/order/12095,273,0,0
+1670232189720,268,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,268,0,0
+1670232189841,281,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-4,text,false,,335,402,2,2,http://market-final-project.herokuapp.com/buyer/order/12097,281,0,0
+1670232189989,256,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-5,text,false,,395,422,1,1,http://market-final-project.herokuapp.com/seller/product,256,0,0
+1670232190246,284,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,5012,417,1,1,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,284,0,0
+1670232190531,258,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,1031,357,1,1,http://market-final-project.herokuapp.com/buyer/product/341,258,0,0
+1670232190789,270,POST Create Order (buyer-order),400,Bad Request,5 Users - 15 Second - 1 Loop 1-5,text,false,,345,424,1,1,http://market-final-project.herokuapp.com/buyer/order,270,0,0
+1670232191060,790,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,75581,351,1,1,http://market-final-project.herokuapp.com/buyer/order,280,0,0
+1670232191851,274,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,278,357,1,1,http://market-final-project.herokuapp.com/buyer/order/12095,274,0,0
+1670232192126,266,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-5,text,false,,335,402,1,1,http://market-final-project.herokuapp.com/buyer/order/12097,266,0,0
+1670232641267,753,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-1,text,false,,344,601,1,1,http://market-final-project.herokuapp.com/auth/register,753,0,456
+1670232642024,348,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-1,text,true,,525,451,1,1,http://market-final-project.herokuapp.com/auth/login,348,0,0
+1670232644156,509,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-2,text,false,,344,601,2,2,http://market-final-project.herokuapp.com/auth/register,509,0,249
+1670232644666,328,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-2,text,true,,525,451,2,2,http://market-final-project.herokuapp.com/auth/login,328,0,0
+1670232642377,3291,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-1,text,false,,334,368346,2,2,https://market-final-project.herokuapp.com/seller/product,3291,0,1414
+1670232645670,277,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,276,0,0
+1670232645948,261,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,261,0,0
+1670232646211,253,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-1,text,false,,391,418,2,2,http://market-final-project.herokuapp.com/seller/product,253,0,0
+1670232646465,281,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,5012,417,2,2,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,281,0,0
+1670232646747,263,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,1031,357,2,2,http://market-final-project.herokuapp.com/buyer/product/341,263,0,0
+1670232647011,267,POST Create Order (buyer-order),400,Bad Request,5 Users - 15 Second - 1 Loop 1-1,text,false,,345,424,3,3,http://market-final-project.herokuapp.com/buyer/order,267,0,0
+1670232644996,2506,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-2,text,false,,334,368354,3,3,https://market-final-project.herokuapp.com/seller/product,2506,0,760
+1670232647133,495,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-3,text,false,,344,601,3,3,http://market-final-project.herokuapp.com/auth/register,495,0,241
+1670232647503,266,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,2830,354,3,3,http://market-final-project.herokuapp.com/seller/product,266,0,0
+1670232647629,321,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-3,text,true,,525,451,3,3,http://market-final-project.herokuapp.com/auth/login,321,0,0
+1670232647770,266,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,787,360,3,3,http://market-final-project.herokuapp.com/seller/product/28167,266,0,0
+1670232648037,252,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-2,text,false,,389,416,3,3,http://market-final-project.herokuapp.com/seller/product,252,0,0
+1670232648290,296,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,5012,417,3,3,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,296,0,0
+1670232647279,1505,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,75581,351,3,3,http://market-final-project.herokuapp.com/buyer/order,273,0,0
+1670232648587,258,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,1031,357,3,3,http://market-final-project.herokuapp.com/buyer/product/341,257,0,0
+1670232648785,264,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-1,text,true,,278,357,3,3,http://market-final-project.herokuapp.com/buyer/order/12095,263,0,0
+1670232648845,266,POST Create Order (buyer-order),400,Bad Request,5 Users - 15 Second - 1 Loop 1-2,text,false,,345,424,3,3,http://market-final-project.herokuapp.com/buyer/order,266,0,0
+1670232649050,258,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-1,text,false,,335,402,3,3,http://market-final-project.herokuapp.com/buyer/order/12097,258,0,0
+1670232649112,782,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,75581,351,2,2,http://market-final-project.herokuapp.com/buyer/order,273,0,0
+1670232649895,265,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-2,text,true,,278,357,3,3,http://market-final-project.herokuapp.com/buyer/order/12095,265,0,0
+1670232650161,259,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-2,text,false,,335,402,3,3,http://market-final-project.herokuapp.com/buyer/order/12097,259,0,0
+1670232650134,509,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-4,text,false,,1307,603,2,2,http://market-final-project.herokuapp.com/auth/register,508,0,248
+1670232647951,2736,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-3,text,false,,334,368370,2,2,https://market-final-project.herokuapp.com/seller/product,2736,0,757
+1670232650643,587,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-4,text,true,,525,451,2,2,http://market-final-project.herokuapp.com/auth/login,587,0,0
+1670232650688,543,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,543,0,0
+1670232651231,274,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,274,0,0
+1670232651505,247,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-3,text,false,,387,414,2,2,http://market-final-project.herokuapp.com/seller/product,247,0,0
+1670232651753,323,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,5012,417,2,2,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,323,0,0
+1670232652076,253,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,1031,357,2,2,http://market-final-project.herokuapp.com/buyer/product/341,253,0,0
+1670232652329,262,POST Create Order (buyer-order),400,Bad Request,5 Users - 15 Second - 1 Loop 1-3,text,false,,345,424,2,2,http://market-final-project.herokuapp.com/buyer/order,262,0,0
+1670232652592,793,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,75581,351,3,3,http://market-final-project.herokuapp.com/buyer/order,294,0,0
+1670232653133,509,POST Register Account (auth),400,Bad Request,5 Users - 15 Second - 1 Loop 1-5,text,false,,344,601,3,3,http://market-final-project.herokuapp.com/auth/register,509,0,249
+1670232653386,268,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-3,text,true,,278,357,3,3,http://market-final-project.herokuapp.com/buyer/order/12095,268,0,0
+1670232651232,2555,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-4,text,false,,334,368362,3,3,https://market-final-project.herokuapp.com/seller/product,2555,0,735
+1670232653643,327,POST Login Account (auth),201,Created,5 Users - 15 Second - 1 Loop 1-5,text,true,,525,451,3,3,http://market-final-project.herokuapp.com/auth/login,327,0,0
+1670232653654,319,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-3,text,false,,335,402,3,3,http://market-final-project.herokuapp.com/buyer/order/12097,319,0,0
+1670232653787,280,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,278,0,0
+1670232654068,264,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,264,0,0
+1670232654335,910,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-4,text,false,,389,416,2,2,http://market-final-project.herokuapp.com/seller/product,910,0,0
+1670232655246,285,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,5012,417,2,2,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,283,0,0
+1670232655531,260,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,1031,357,2,2,http://market-final-project.herokuapp.com/buyer/product/341,260,0,0
+1670232655792,287,POST Create Order (buyer-order),400,Bad Request,5 Users - 15 Second - 1 Loop 1-4,text,false,,345,424,2,2,http://market-final-project.herokuapp.com/buyer/order,287,0,0
+1670232653971,2631,POST Fetch Products (seller-product),400,Bad Request,5 Users - 15 Second - 1 Loop 1-5,text,false,,334,368362,2,2,https://market-final-project.herokuapp.com/seller/product,2631,0,768
+1670232656603,284,GET Register Account (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,2830,354,2,2,http://market-final-project.herokuapp.com/seller/product,283,0,0
+1670232656079,810,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,75581,351,2,2,http://market-final-project.herokuapp.com/buyer/order,300,0,0
+1670232656890,264,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-4,text,true,,278,357,2,2,http://market-final-project.herokuapp.com/buyer/order/12095,264,0,0
+1670232656887,272,GET Register Account (ID) (seller-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,787,360,2,2,http://market-final-project.herokuapp.com/seller/product/28167,272,0,0
+1670232657154,260,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-4,text,false,,335,402,2,2,http://market-final-project.herokuapp.com/buyer/order/12097,260,0,0
+1670232657160,255,DELETE Register Account (ID) (seller-product),500,Internal Server Error,5 Users - 15 Second - 1 Loop 1-5,text,false,,387,414,2,2,http://market-final-project.herokuapp.com/seller/product,255,0,0
+1670232657416,278,GET Fetch Products (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,5012,417,1,1,http://market-final-project.herokuapp.com/buyer/product?status=available&category_id=3&search=sepatu&page=1&per_page=10,277,0,0
+1670232657694,258,GET Fetch Products (ID) (buyer-product),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,1031,357,1,1,http://market-final-project.herokuapp.com/buyer/product/341,258,0,0
+1670232657953,276,POST Create Order (buyer-order),400,Bad Request,5 Users - 15 Second - 1 Loop 1-5,text,false,,345,424,1,1,http://market-final-project.herokuapp.com/buyer/order,276,0,0
+1670232658230,824,GET Fetch Orders (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,75581,351,1,1,http://market-final-project.herokuapp.com/buyer/order,272,0,0
+1670232659055,263,GET Fetch Orders (ID) (buyer-order),200,OK,5 Users - 15 Second - 1 Loop 1-5,text,true,,278,357,1,1,http://market-final-project.herokuapp.com/buyer/order/12095,263,0,0
+1670232659319,261,PUT Edit Order (ID) (buyer-order),403,Forbidden,5 Users - 15 Second - 1 Loop 1-5,text,false,,335,402,1,1,http://market-final-project.herokuapp.com/buyer/order/12097,261,0,0
